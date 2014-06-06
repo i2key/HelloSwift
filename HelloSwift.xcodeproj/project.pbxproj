@@ -12,6 +12,9 @@
 		DD3CB2AD19417D2D00E4EAFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD3CB2AB19417D2D00E4EAFB /* Main.storyboard */; };
 		DD3CB2AF19417D2D00E4EAFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD3CB2AE19417D2D00E4EAFB /* Images.xcassets */; };
 		DD3CB2BB19417D2D00E4EAFB /* HelloSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3CB2BA19417D2D00E4EAFB /* HelloSwiftTests.swift */; };
+		DD3CB2C519417D4700E4EAFB /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3CB2C419417D4700E4EAFB /* Social.framework */; };
+		DD3CB2C71941916800E4EAFB /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3CB2C61941916800E4EAFB /* TableViewController.swift */; };
+		DD3CB2CB1941940000E4EAFB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3CB2CA1941940000E4EAFB /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 		DD3CB2B419417D2D00E4EAFB /* HelloSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD3CB2B919417D2D00E4EAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD3CB2BA19417D2D00E4EAFB /* HelloSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftTests.swift; sourceTree = "<group>"; };
+		DD3CB2C419417D4700E4EAFB /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		DD3CB2C61941916800E4EAFB /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		DD3CB2CA1941940000E4EAFB /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD3CB2C519417D4700E4EAFB /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +64,7 @@
 		DD3CB29919417D2D00E4EAFB = {
 			isa = PBXGroup;
 			children = (
+				DD3CB2C419417D4700E4EAFB /* Social.framework */,
 				DD3CB2A419417D2D00E4EAFB /* HelloSwift */,
 				DD3CB2B719417D2D00E4EAFB /* HelloSwiftTests */,
 				DD3CB2A319417D2D00E4EAFB /* Products */,
@@ -80,6 +88,8 @@
 				DD3CB2AB19417D2D00E4EAFB /* Main.storyboard */,
 				DD3CB2AE19417D2D00E4EAFB /* Images.xcassets */,
 				DD3CB2A519417D2D00E4EAFB /* Supporting Files */,
+				DD3CB2C61941916800E4EAFB /* TableViewController.swift */,
+				DD3CB2CA1941940000E4EAFB /* TableViewCell.swift */,
 			);
 			path = HelloSwift;
 			sourceTree = "<group>";
@@ -209,6 +219,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD3CB2AA19417D2D00E4EAFB /* ViewController.swift in Sources */,
+				DD3CB2CB1941940000E4EAFB /* TableViewCell.swift in Sources */,
+				DD3CB2C71941916800E4EAFB /* TableViewController.swift in Sources */,
 				DD3CB2A819417D2D00E4EAFB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

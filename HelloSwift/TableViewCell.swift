@@ -6,4 +6,10 @@
 //  Copyright (c) 2014年 i2key. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class TableViewCell: UITableViewCell{
+    
+    @IBOutlet var tweet : UILabel
+    
+}
