@@ -3,10 +3,12 @@ HelloSwift
 
 SwiftのHelloWorldとしてTweetしてみたり、タイムライン取得してみたり
 
-+ViewController
+- ViewController
+
 SLComposeViewControllerでTweetやFacebook投稿
 
-+TableViewController
+- TableViewController
+
 SLRequestでタイムライン取得
 
 ※シュミレータの設定で事前にTwitterアカウントを認証しといてね
